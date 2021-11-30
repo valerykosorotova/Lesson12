@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/subset-Montserrat-Bold.eot");
+  src: url("../fonts/subset-Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/subset-Montserrat-Bold.woff2") format("woff2"), url("../fonts/subset-Montserrat-Bold.woff") format("woff"), url("../fonts/subset-Montserrat-Bold.ttf") format("truetype"), url("../fonts/subset-Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/subset-Montserrat-Regular.eot");
+  src: url("../fonts/subset-Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/subset-Montserrat-Regular.woff2") format("woff2"), url("../fonts/subset-Montserrat-Regular.woff") format("woff"), url("../fonts/subset-Montserrat-Regular.ttf") format("truetype"), url("../fonts/subset-Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.colored-wraper {
+  background-image: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.container {
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.header-adress {
+  font-weight: 400;
+}
+.header__main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.header__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__info-language {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header__info-language-item {
+  margin-left: 15px;
+}
+.header__info-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: disc;
+}
+.header__info-contacts-item {
+  margin-left: 30px;
+}
+.header__info-contacts-item-image {
+  display: flex;
+  align-items: center;
+}
+.header__navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header__navigation-item {
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
